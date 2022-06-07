@@ -1,0 +1,30 @@
+{
+  "name": "nfactorial-simple-cli",
+  "version": "1.0.0",
+  "description": "receiving bitcoin and ethereum price using CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingizof/nfactorial-simple-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chingizof/nfactorial-simple-CLI/issues"
+  },
+  "homepage": "https://github.com/chingizof/nfactorial-simple-CLI#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "coingecko-api": "^1.0.10",
+    "commander": "^9.3.0",
+    "conf": "^10.1.2"
+  },
+  "bin": {
+    "todos": "./index.js"
+}
+}
