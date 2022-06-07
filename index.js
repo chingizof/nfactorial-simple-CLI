@@ -2,6 +2,7 @@
 const { program } = require('commander')
 const team = require('./commands/team')
 const add = require('./commands/add')
+const btc = require('./commands/btc.js')
 
 
 program
@@ -13,6 +14,11 @@ program
     .command('team')
     .description('Add TODO task')
     .action(team)
+
+program
+    .command('price')
+    .description('search for BTC price')
+    .action(btc)
 
 program.parse()
 
