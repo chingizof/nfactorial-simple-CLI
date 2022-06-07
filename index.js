@@ -7,12 +7,12 @@ const btc = require('./commands/btc.js')
 
 program
     .command('add <player>')
-    .description('Add a new TODO task')
+    .description('Add a new player')
     .action(add)
 
 program
     .command('team')
-    .description('Add TODO task')
+    .description('посмотреть состав команды')
     .action(team)
 
 program
