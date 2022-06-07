@@ -16,7 +16,7 @@ program
     .action(team)
 
 program
-    .command('price')
+    .command('price <coin>')
     .description('search for BTC price')
     .action(btc)
 
